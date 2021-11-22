@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* html{
+  font-size: 62.5%;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.main-div{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: rgb(125, 87, 168);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+  min-height: 100vh;
+ 
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.child-div{
+
+  margin: 12px 0px;
+  align-items: center;
+  font-size: large;
+}
+  
+img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto ;  
+
+    margin-bottom: 12px;
+}
+figcaption{
+color: white;
+font-weight: bold ;
+display: flex;
+justify-content: center;
+margin: 0px auto ;  
+
+margin-bottom: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-item{
+  margin: 0px auto ; 
+  width: fit-content; 
+
+}
+
+.add-item > input{
+
+  border-radius: 6px;
+
+  
+  padding: 8px;
+ 
+}
+
+
+.add-btn {
+  cursor: pointer;
+} 
+.add-btn:hover {
+  cursor: pointer;
+  color: rgb(144, 255, 149);
+}
+
+.showitem{
+  margin: 10px 0px;
+
+}
+
+.eachitem{
+  border: 2px solid brown ;
+  background-color:rgb(207, 189, 255);
+  border-radius: 6px;
+
+  align-items: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:2px 0px ;
+  height: 80%;
+
+  
+  
+
+
+}
+.eachitem > h4{
+  box-sizing: border-box;
+  width:95%;
+  padding: 2px 4px 2px 4px;
+  padding: 0px 6px;
+  color: purple;
+  font-weight: bold;
+}
+.eachitem:hover{
+  background-color:rgb(255, 255, 255);
+
+}
+
+.add-btn1 ,.add-btn2 {
+  cursor: pointer; 
+  margin: 0px 4px;
+} 
+.add-btn1:hover {
+  cursor: pointer;
+  color: rgb(185, 99, 99);
+}
+.add-btn2:hover {
+  cursor: pointer;
+  color: rgb(54, 196, 90);
+}
+
+.btn-rem{
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.effect04:hover{
+  background-color: purple;
+  
 }
