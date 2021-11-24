@@ -63,8 +63,13 @@ margin-bottom: 12px;
 }
 
 
+
+
 .add-btn {
   cursor: pointer;
+  position: relative;
+  right: 22px;
+  top: 0;
 } 
 .add-btn:hover {
   cursor: pointer;
